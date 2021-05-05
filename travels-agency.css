@@ -1,0 +1,481 @@
+/* common */
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0em;
+}
+img {
+    max-width: 100%;
+}
+a {
+    color: #932a1f;
+    text-decoration: none;
+}
+a:hover {
+    color: #932a1f;
+    text-decoration: none;
+}
+.travels-agency-logo-wrapper {
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+}
+.travels-agency-btn {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 15px 30px;
+    border: 2px solid #932a1f;
+    border-radius: 40px;
+    background: transparent;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 18px;
+    cursor: pointer;
+    outline: 0px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+.travels-agency-btn:hover{
+    background-color: gray;
+    color: #ffffff;
+    text-decoration: none;
+}
+/* common */
+
+/* header start*/
+.travels-agency-header-wrapper {
+    background: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    z-index: 11;
+}
+.travels-agency-nav-wrapper .navbar-nav {
+    justify-content: space-between;
+    width: 100%;
+}
+.travels-agency-nav-wrapper .nav-link {
+    color: black;
+    font-weight: bold;
+}
+.travels-agency-nav-wrapper .nav-link:hover {
+    color: #c26a0c;
+}
+/* header end */
+
+/* home page */
+
+.travels-agency-slide-wrapper {
+    margin-top: -10%;
+}
+.travels-agency-slide-inner-wrapper {
+    padding: 0px;
+    text-align: center;
+}
+.travels-agency-banner-wrapper {
+    margin-top: -10%;
+}
+.travels-agency-banner-inner-wrapper h3 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: #ffffff;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    font-size: 3rem;
+}
+
+.travels-agency-banner-inner-wrapper img {
+    position: relative;
+    z-index: 0;
+}
+
+.travels-agency-banner-inner-wrapper:before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    z-index: 1;
+}
+
+.why-travels-agency-wrapper {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.why-travels-agency-inner-wrapper {
+    padding-bottom: 5%;
+}
+.why-travels-agency-inner-wrapper h3 {
+    color: black;
+    font-size: 2.5rem;
+    margin: 0px 0px 15px 0px;
+}
+.why-travels-agency-inner-wrapper p {
+    margin: 0px;
+}
+.why-travels-agency-advantages {
+    padding-bottom: 2%;
+}
+.why-travels-agency-advantages h3 {
+    font-size: 2rem;
+    color: #653c08;
+    margin: 0px;
+}
+.why-travels-agency-bullets-icons {
+    border: 1px solid #333300;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    line-height: 100px;
+    display: inline-block;
+    font-size: 40px;
+    color: #333300;
+}
+.why-travels-agency-bullets h4 {
+    margin: 5% 0px;
+    position: relative;
+    padding: 0 0 5% 0;
+}
+.why-travels-agency-bullets h4:before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width: 60px;
+    height: 3px;
+    background: #333300;
+    margin: 0 auto;
+    bottom: 0px;
+}
+
+
+.travels-agency-find-tour-wrapper {
+    background: url('../images/travels-agency-find-tour-bg.jpg') no-repeat center center / 100% auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    position: relative;
+}
+.travels-agency-find-tour-wrapper:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.travels-agency-find-tour-wrapper h3 {
+    color: #ffffff;
+    margin: 0 0 5% 0;
+}
+
+
+.travels-agency-package-wrapper {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #f5f5f5;
+}
+.travels-agency-package-title {
+    padding-bottom: 5%;
+}
+.travels-agency-package-inner:hover {
+    -webkit-box-shadow: 5px 6px 29px -1px rgba(0,0,0,.24);
+    box-shadow: 5px 6px 29px -1px rgba(0,0,0,.24);
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.travels-agency-package-inner {
+    background: #ffffff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    overflow: hidden;
+}
+.travels-agency-package-inner-text {
+    padding: 20px 30px;
+}
+.travels-agency-package-inner img {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+.travels-agency-package-inner h4 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    text-align: inherit;
+    color: #000000;
+    min-height: 45px;
+}
+.travels-agency-package-inner p {
+    color: #aaaaaa;
+}
+.travels-agency-view-tour {
+    margin-top: 5%;
+}
+.travels-agency-view-tour .travels-agency-btn {
+    color: black;
+}
+.travels-agency-view-tour .travels-agency-btn:hover {
+    color: black;
+}
+.travels-agency-google-map-iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    border: 0px;
+}
+
+/* home page */
+
+/* about page */
+.about-travels-agency-intro-wrapper {
+    padding-top: 5%;
+}
+.about-travels-agency-intro {
+    padding-bottom: 0%;
+}
+.about-travels-agency-intro h1 {
+    color: #c85f0d;
+    font-size: 3rem;
+    margin: 0px 0px 15px 0px;
+}
+
+.about-travels-agency-about-wrapper {
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+.about-travels-agency-about-left p:last-child {
+    margin-bottom: 0px;
+}
+.about-travels-agency-about-right img {
+    border-radius: 10px;
+}
+.about-travels-agency-contact-wrapper {
+    background: url('../images/about-travels-agency-contact.jpg') no-repeat center center / 100% auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    position: relative;
+}
+.about-travels-agency-contact-wrapper:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.about-travels-agency-contact-wrapper h3 {
+    color: #ffffff;
+    margin: 0 0 5% 0;
+}
+
+.about-travels-agency-mission-vision-wrapper {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.about-travels-agency-mission-vision-wrapper h3 {
+    font-size: 2rem;
+    color: #653c08;
+    margin: 0px;
+}
+.about-travels-agency-vision {
+    padding-bottom: 3%;
+}
+/* about page */
+
+/* contact page */
+.contact-travels-agency-wrapper {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.contact-travels-agency-inner-wrapper {
+    color: #c85f0d;
+    font-size: 2.5rem;
+    margin: 50px;
+	padding-left : 30 %;
+}
+.contact-travels-agency-inner h4 {
+    margin-bottom: 20px;
+    color: #6f3202;
+	margin: 10px 10px 50px 0px;
+	padding-left : 30 %;
+}
+
+.contact-travels-agency-inner h5 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #b07f13;
+	padding-left : 30 %;
+	margin: 10px 10px 50px 0px;
+}
+.enquery-btn {
+    color: #000000;
+}
+/* contact page */
+
+/* tour */
+.tour-travels-agency-package {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.tour-travels-agency-package h1 {
+    text-align: center;
+    margin-bottom: 5%;
+    color: #c85f0d;
+}
+.tour-travels-agency-package b {
+    color: #653c08;
+}
+/* tour */
+
+/* footer */
+
+.travels-agency-footer-wrapper {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background: #350c00;
+    color: #fff;
+}
+.travels-agency-copyright {
+    padding-top: 1.5%;
+}
+.travels-agency-copyright p {
+    margin: 0px;
+}
+.travels-agency-footer-socials ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: right;
+    width: 100%;
+}
+.travels-agency-footer-socials ul li {
+    display: inline-block;
+    padding-right: 1%;
+}
+.travels-agency-footer-socials ul li:last-child {
+    padding-right: 0px;
+}
+.travels-agency-footer-socials ul li a {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 45px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    background: transparent;
+    border-radius: 100%;
+    display: inline-block;
+    text-align: center;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+.travels-agency-footer-socials ul li a:hover {
+    background: #932a1f;
+    color: #ffffff;
+}
+/* footer */
+
+@media (max-width: 991px) {
+    .travels-agency-header-wrapper {
+        background: #000;
+        z-index: auto;
+    }
+    .navbar-toggler {
+        position: absolute;
+        background: #ca860c;
+        top: 25px;
+        right: 0px;
+        z-index: 1031;
+    }    
+    .travels-agency-nav-wrapper .navbar {
+        padding: 0px;
+    }
+    .travels-agency-slide-wrapper {
+        margin-top: 0px;
+    }
+    .travels-agency-banner-wrapper {
+        margin-top: 0px;
+    }
+    .navbar-collapse {
+        position: fixed;
+        width: 100%;
+        height: 100% !important;
+        left: -100%;
+        top: 0px;
+        z-index: 1030;
+        background: #000;
+        transition: all .5s ease-in-out;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+    }
+    .navbar-collapse.show {
+        left: 0px;
+    }
+    .travels-agency-nav-wrapper .navbar-nav {
+        height: 100%;
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .navbar-toggler[aria-expanded="true"] .fa-bars:before {
+        content: "\f00d";
+    }
+    .about-travels-agency-about-wrapper {
+        padding-top: 0px;
+    }
+    .about-travels-agency-about-left {
+        text-align: center;
+    }
+    .about-travels-agency-about-right {
+        text-align: center;
+        padding-top: 5%;
+    }
+}
+
+@media (max-width: 767px) {
+    
+    .navbar-toggler {
+        top: -60px;
+    }
+    
+    .travels-agency-copyright {
+        text-align: center;
+    }
+    .travels-agency-footer-socials ul {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .about-travels-agency-contact-wrapper {
+        background-size: cover;
+    }
+    
+    .travels-agency-banner-inner-wrapper h3 {
+        font-size: 2rem;
+    }
+}
+
